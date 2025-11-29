@@ -8,10 +8,10 @@ from pathlib import Path
 from src.datascience.config.configuration import ModelEvaluationConfig
 from src.datascience.utils.common import save_json
 
-import os
-os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/siddukasam28/PracticeDataScienceProject.mlflow"
-os.environ["MLFLOW_TRACKING_USERNAME"] = "siddukasam28"
-os.environ["MLFLOW_TRACKING_PASSWORD"] = "63c4cbbeb538d23123b3424e131fc50146474157"
+# import os
+# os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/siddukasam28/PracticeDataScienceProject.mlflow"
+# os.environ["MLFLOW_TRACKING_USERNAME"] = "siddukasam28"
+# os.environ["MLFLOW_TRACKING_PASSWORD"] = "63c4cbbeb538d23123b3424e131fc50146474157"
 
 class ModelEvaluation:
     def __init__(self,config=ModelEvaluationConfig):
